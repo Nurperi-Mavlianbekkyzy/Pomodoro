@@ -1,0 +1,122 @@
+.mainWin {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .2);
+}
+.modalWindow {
+    position: fixed;
+    width: 350px;
+    height: 419px;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 30px;
+    /* z-index: 1000;  */
+    border-radius: 8px; 
+    margin-top: 70px;
+}
+
+.inModal {
+    width: 350px;
+    height: 420px;
+}
+.img-s {
+    width: 15px;
+    height: 15px;
+    color: #BCBCBC;
+    font-size: 24px; 
+    font-style: bold;
+    font-family: Montserrat;
+}
+.with-img-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.div-img1 {
+    width: 200px;
+    color:#BCBCBC;
+}
+.div-img2 {
+    width: 60px;
+    height: 40px;
+}
+.timer-m {
+    /* text-align: start; */
+    font-size: 12px;
+    text-align: start;
+}
+.div-3-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.div-3-btn p {
+    color: #BCBCBC;
+}
+.number-div1 {
+    width: 100px;
+}
+.number-div2 {
+    width: 100px;
+}
+.number-div3 {
+    width: 100px;
+}
+.div-3-btn input {
+    width: 50px;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.text-div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.text-div-1 input {
+    margin-top: 10px;
+    display: inline-block;
+    width: 30px;
+    background-color: #EFEFEF;
+    padding: 10px 10px 14px 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.modalWindow hr {
+    margin-top: 18px;
+}
+.text-div-1 div {
+    font-family: 18px;
+}
+.btn-s {
+    display: flex;
+    justify-content: right;
+    width: 50px;
+    border: none;
+    padding: 5px;
+    background-color: #BCBCBC;
+    border-radius: 30px;
+}
+.btn-r {
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    width: 20px;
+    border: none;
+}
+.main-btn {
+    margin-left: 250px;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    border: none;
+}
+

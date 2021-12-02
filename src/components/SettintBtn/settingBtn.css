@@ -1,0 +1,19 @@
+.textBtn {
+    margin-left: 4px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 8px 12px;
+    border: none;
+    min-width: 70px;
+    color: white;
+}

@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.caral{
+  background-color: #DB524D;
+  height: 500px;
+
+}
+.short-break{
+  background-color: #468E91;
+  height: 500px;
+
+}
+
+.long-break{
+  background-color: #437EA8;
+  height: 500px;
+}
+.caral .start-btn{
+  color: rgb(219, 82, 77);
+  transition: all .4s ease;
+  }
+ .long-break .start-btn{
+  color: #468E91;
+  transition: all .4s ease;
+  }
+ .short-break .start-btn{
+  color: #437EA8;
+  transition: all .4s ease;
+ }
+

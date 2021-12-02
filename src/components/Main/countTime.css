@@ -1,0 +1,17 @@
+.con {
+    padding: 0px 12px;
+    max-width: 620px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2); 
+    height: 1px;
+    margin-bottom: 40px;
+}
+
+.comple {
+    height: 3px;
+    border-color: white;
+    border-radius: 100px;
+    width: 0;
+    transform: translateY(-1);
+}

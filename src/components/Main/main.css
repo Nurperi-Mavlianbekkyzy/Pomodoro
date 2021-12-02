@@ -1,0 +1,56 @@
+
+.content {
+    max-width: 480px;
+    margin: auto;
+    padding: 0px 12px;
+    color: white;
+}
+
+.mini-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.change-pomodoro {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change {
+    /* color: white; */
+    border-radius: 4px;
+    padding: 2px 12px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 28px;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.start-btn {
+    cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    font-size: 22px;
+    height: 55px;
+    color: rgb(219, 82, 77);
+    font-weight: bold;
+    width: 200px;
+    background-color: white;
+    transition: color 0.5s ease-in-out 0s;
+}
+.start-btn:active {
+    transform: translateY(4px);
+  }
